@@ -24,7 +24,7 @@ var person = {
     hobbies: ['sport'],
     role: Role.MANAGER
 };
-person.role[0] = 10;
+person.age = 10;
 var result = add(number1, number2, 'asNumber');
 console.log(result);
 var re1 = add('abc', 123, 'asString');
